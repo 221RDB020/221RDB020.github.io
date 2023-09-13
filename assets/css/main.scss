@@ -333,18 +333,13 @@ footer {
   position: absolute;
   right: 0;
   z-index: 100;
-  padding: 0 1rem 0.3rem;
   align-items: center;
   justify-content: center;
-  background: #000000;
-  border-radius: 0.625rem;
   transition: ease-in 0.1s;
   cursor: pointer;
   user-select: none;
-  span {
-    color: #FFFFFF;
-    font-size: clamp(2.225rem, 1.87rem + 1.775vw, 4rem);
-    font-weight: 700;
+  svg {
+    width: 3rem;
   }
 }
 
@@ -355,13 +350,8 @@ footer {
   }
   left: 7.5vw;
   width: fit-content;
-  padding: 0.2rem 1.2rem;
-  background: #FFFFFF;
+  padding: 1rem 1.2rem 0.2rem;
   border: none;
-  span {
-    margin: 0;
-    color: #000000;
-  }
 }
 
 .side-menu {
