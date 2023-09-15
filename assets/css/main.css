@@ -368,7 +368,7 @@ footer {
   transform: translateX(100%);
   display: flex;
   z-index: 2;
-  position: absolute;
+  position: fixed;
   justify-content: flex-end;
   top: 0;
   right: 0;
